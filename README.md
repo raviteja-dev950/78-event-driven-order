@@ -39,7 +39,7 @@ Verified with 2 screenshots:
 
 ## 🏗 Architecture Diagram – Event-Driven – Request -> Publish -> Consume
 
-[architecture](screenshots/architecture.png)
+![architecture](screenshots/architecture.png)
 
 ```text
 Client (curl/Postman/Browser) -> REST API Layer OrderController 8087 (GET RUNNING, POST Order placed)
@@ -240,13 +240,13 @@ Verified: demo1 GET RUNNING, demo2 POST Order placed – 78 COMPLETE!
 
 ### 1. Health Check – Browser – localhost:8087/api/orders – RUNNING on 8087
 
-[demo1](screenshots/demo1.png)
+![demo1](screenshots/demo1.png)
 
 ---
 
 ### 2. Event Fired – CMD curl POST – Order placed: MacBook x 2 – Main proof!
 
-[demo2](screenshots/demo2.png)
+![demo2](screenshots/demo2.png)
 
 ---
 
